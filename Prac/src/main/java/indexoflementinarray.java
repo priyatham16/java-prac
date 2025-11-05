@@ -27,7 +27,12 @@ public class indexoflementinarray {
 		int ele = s.nextInt();
 
 		int indexis = method(a, ele);
-		System.out.println(indexis);
+		if (indexis == -1) {
+			System.out.println("no");
+		} else {
+			System.out.println(indexis);
+
+		}
 
 	}
 
